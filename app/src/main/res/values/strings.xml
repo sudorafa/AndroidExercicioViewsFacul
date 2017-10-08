@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">Minha Conta</string>
-    <string name="editProfile">Editar Perfil</string>
+    <string name="app_name">My App</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="account_details">Detalhes da Conta</string>
+    <string name="private_account">Conta Privada</string>
+    <string name="email_available">E-mail Visível</string>
+    <string name="active_account">Conta Ativa</string>
+    <string name="change_password">Mudar Senha</string>
+    <string name="settings_account">Configurações da Conta</string>
+    <string name="settings_perfil">Configurações do Perfil</string>
 </resources>
