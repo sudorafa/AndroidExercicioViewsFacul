@@ -7,5 +7,37 @@
     <string name="active_account">Conta Ativa</string>
     <string name="change_password">Mudar Senha</string>
     <string name="settings_account">Configurações da Conta</string>
-    <string name="settings_perfil">Configurações do Perfil</string>
+    <string name="settings_theme">Configurações do Tema</string>
+    <string name="display_brightness">Brilho da Tela:</string>
+    <string name="appearance">Aparência</string>
+    <string name="blue">Azul</string>
+    <string name="red">Verm</string>
+    <string name="green">Verd</string>
+    <string name="yellow">Amar</string>
+    <string name="pink">Rosa</string>
+    <string name="night_mode">Modo Noturno</string>
+
+    <string name="font_style_prompt">Escolha uma Fonte</string>
+    <string-array name="font_style_arrays">
+        <item>Font 1</item>
+        <item>Font 2 </item>
+        <item>Font 3</item>
+        <item>Font 4</item>
+        <item>Font 5</item>
+        <item>Font 6</item>
+        <item>Font 7</item>
+        <item>Font 8</item>
+    </string-array>
+
+    <string name="font_size_prompt">Escolha uma Tamanho</string>
+    <string-array name="font_size_arrays">
+        <item>Tamanho 1</item>
+        <item>Tamanho 2 </item>
+        <item>Tamanho 3</item>
+        <item>Tamanho 4</item>
+        <item>Tamanho 5</item>
+        <item>Tamanho 6</item>
+        <item>Tamanho 7</item>
+        <item>Tamanho 8</item>
+    </string-array>
 </resources>

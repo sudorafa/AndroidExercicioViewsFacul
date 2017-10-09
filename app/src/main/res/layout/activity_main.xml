@@ -8,6 +8,11 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp">
 
+    <ListView
+        android:id="@+id/listViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    </ListView>
 
 </LinearLayout>

@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AccountActivity" />
-        <activity android:name=".ThemeActivity"></activity>
+        <activity android:name=".ThemeActivity" />
     </application>
 
 </manifest>
