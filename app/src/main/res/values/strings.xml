@@ -30,6 +30,8 @@
     </string-array>
 
     <string name="font_size_prompt">Escolha uma Tamanho</string>
+    <string name="name">Nome:</string>
+    <string name="email">Email:</string>
     <string-array name="font_size_arrays">
         <item>Tamanho 1</item>
         <item>Tamanho 2 </item>
