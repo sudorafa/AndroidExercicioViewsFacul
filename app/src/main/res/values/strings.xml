@@ -32,6 +32,10 @@
     <string name="font_size_prompt">Escolha uma Tamanho</string>
     <string name="name">Nome:</string>
     <string name="email">Email:</string>
+    <string name="nick">Nick:</string>
+    <string name="salve">Salvar</string>
+    <string name="password">Senha Atual:</string>
+    <string name="new_password">Senha Nova:</string>
     <string-array name="font_size_arrays">
         <item>Tamanho 1</item>
         <item>Tamanho 2 </item>

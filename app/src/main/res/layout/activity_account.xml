@@ -71,6 +71,7 @@
     </android.support.v7.widget.CardView>
 
     <Button
+        android:id="@+id/buttonEditProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -123,7 +124,7 @@
     </android.support.v7.widget.CardView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonChangePassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
