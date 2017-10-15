@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="account_details">Account Details</string>
+    <string name="private_account">Private Account</string>
+    <string name="email_available">Email Available</string>
+    <string name="active_account">Active Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="settings_account">Settings Account</string>
+    <string name="settings_theme">Settings Theme</string>
+    <string name="display_brightness">Display Brightness</string>
+    <string name="appearance">Appearance</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="pink">Pink</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="nick">Nick</string>
+    <string name="salve">Salve</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="font_style_prompt">Change Style</string>
+    <string-array name="font_style_arrays">
+        <item>Style 1</item>
+        <item>Style 2 </item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+    </string-array>
+
+    <string name="font_size_prompt">Change Size</string>
+    <string name="password_updated_successfully"></string>
+    <string-array name="font_size_arrays">
+        <item>Size 1</item>
+        <item>Size 2 </item>
+        <item>Size 3</item>
+        <item>Size 4</item>
+        <item>Size 5</item>
+        <item>Size 6</item>
+        <item>Size 7</item>
+        <item>Size 8</item>
+    </string-array>
+</resources>
