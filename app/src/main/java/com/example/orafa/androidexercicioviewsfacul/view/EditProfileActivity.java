@@ -36,7 +36,7 @@ public class EditProfileActivity extends AppCompatActivity implements View.OnCli
         if (user != null) {
             mViewHolder.editTextName.setText(user.getName());
             mViewHolder.editTextEmail.setText(user.getEmail());
-            mViewHolder.editTextNick.setText(user.getNick());
+            mViewHolder.editTextNick.setText("@" + user.getNick());
         } else {
             user = new User();
         }
@@ -48,7 +48,7 @@ public class EditProfileActivity extends AppCompatActivity implements View.OnCli
             case R.id.buttonSaveProfile:
                 user.setName(mViewHolder.editTextName.getText().toString());
                 user.setEmail(mViewHolder.editTextEmail.getText().toString());
-                user.setNick("@" + mViewHolder.editTextNick.getText().toString());
+                user.setNick(mViewHolder.editTextNick.getText().toString());
                 DUser dUserSave = new DUser(EditProfileActivity.this);
                 dUserSave.save(user);
                 finish();

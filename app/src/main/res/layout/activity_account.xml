@@ -103,7 +103,7 @@
                 android:textSize="25sp" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBoxEmailAvailable"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -111,7 +111,7 @@
                 android:textSize="25sp" />
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/switchActiveAccount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
