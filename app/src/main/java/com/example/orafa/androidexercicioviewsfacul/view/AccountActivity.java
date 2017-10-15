@@ -58,11 +58,19 @@ public class AccountActivity extends AppCompatActivity implements View.OnClickLi
 
     private void runUser() {
         DUser dUser = new DUser(this);
-        dUser.findUser();
+        user = dUser.findUser();
         if (user != null) {
             mViewHolder.textViewName.setText(user.getName());
             mViewHolder.textViewEmail.setText(user.getEmail());
-            mViewHolder.textViewNick.setText(user.getNick());
+            mViewHolder.textViewNick.setText("@" +user.getNick());
+        }else{
+            user = new User();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        runUser();
     }
 }

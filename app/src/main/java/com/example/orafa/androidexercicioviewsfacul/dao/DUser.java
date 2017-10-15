@@ -66,23 +66,21 @@ public class DUser extends SQLiteOpenHelper {
     }
 
     public User findUser() {
+        String sql = "select * from user;";
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.query(true, "user", new String[]{"id", "name","email", "nick", "password"}, null, null, null, null, null, null);
+        Cursor cursor = db.rawQuery(sql, null);
 
-        if (c.getCount() > 0) {
-
-            c.moveToFirst();
-
+        if (cursor.moveToNext()) {
             User user = new User();
 
-            user.setIdUser(c.getInt(0));
-            user.setName(c.getString(1));
-            user.setEmail(c.getString(2));
-            user.setNick(c.getString(3));
-            user.setPassword(c.getString(4));
+            user.setIdUser(cursor.getInt(cursor.getColumnIndex("id")));
+            user.setName(cursor.getString(cursor.getColumnIndex("name")));
+            user.setEmail(cursor.getString(cursor.getColumnIndex("email")));
+            user.setNick(cursor.getString(cursor.getColumnIndex("nick")));
+            user.setPassword(cursor.getString(cursor.getColumnIndex("password")));
 
             return user;
-        } else {
+        } else{
             return null;
         }
     }
