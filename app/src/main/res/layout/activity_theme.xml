@@ -64,7 +64,7 @@
             android:orientation="vertical">
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/switchNightMode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -72,6 +72,7 @@
                 android:textSize="25sp" />
 
             <RadioGroup
+                android:id="@+id/radioGroupColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"

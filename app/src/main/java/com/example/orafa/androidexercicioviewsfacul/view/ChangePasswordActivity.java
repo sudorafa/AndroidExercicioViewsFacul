@@ -27,7 +27,7 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.buttonSavePassword:
-                Toast.makeText(getApplication(), "Senha Alterada Com Sucesso!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(), R.string.password_updated_successfully, Toast.LENGTH_LONG).show();
                 break;
         }
 

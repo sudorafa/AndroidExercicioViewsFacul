@@ -16,6 +16,12 @@
     <string name="yellow">Amar</string>
     <string name="pink">Rosa</string>
     <string name="night_mode">Modo Noturno</string>
+    <string name="name">Nome:</string>
+    <string name="email">Email:</string>
+    <string name="nick">Nick:</string>
+    <string name="salve">Salvar</string>
+    <string name="password">Senha Atual:</string>
+    <string name="new_password">Senha Nova:</string>
 
     <string name="font_style_prompt">Escolha uma Fonte</string>
     <string-array name="font_style_arrays">
@@ -30,12 +36,7 @@
     </string-array>
 
     <string name="font_size_prompt">Escolha uma Tamanho</string>
-    <string name="name">Nome:</string>
-    <string name="email">Email:</string>
-    <string name="nick">Nick:</string>
-    <string name="salve">Salvar</string>
-    <string name="password">Senha Atual:</string>
-    <string name="new_password">Senha Nova:</string>
+    <string name="password_updated_successfully">Senha Alterada Com Sucesso!</string>
     <string-array name="font_size_arrays">
         <item>Tamanho 1</item>
         <item>Tamanho 2 </item>
